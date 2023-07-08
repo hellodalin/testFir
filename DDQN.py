@@ -3,7 +3,7 @@ import torch
 from torch.optim import Adam
 from torch import nn
 
-'''修改DDQN为多目标DDQN'''
+'''测试添加注释-----'''
 class DDQN:
     def __init__(self, learning_rate, tor, tb_writer, device):
         self.device = device
